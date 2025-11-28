@@ -1,0 +1,14 @@
+
+Answer:
+
+When I change from col-md-6 to col-lg-6:
+The two columns will stack vertically sooner. With col-lg-6, they only stay side-by-side on large screens (992px and up). So on tablets and phones, the table and text will be stacked on top of each other instead of next to each other.
+
+When I change from col-md-6 to col-sm-6:
+The columns will stay side-by-side longer. With col-sm-6, they remain horizontal even on bigger phones (576px and up). Only very small phones will see them stacked vertically.
+
+The difference between them:
+- col-sm-6 breaks at 576px
+- col-md-6 breaks at 768px  
+- col-lg-6 breaks at 992px
+
